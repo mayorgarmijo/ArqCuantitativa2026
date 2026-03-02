@@ -5,6 +5,12 @@ date: "2026-03-XX"
 output: html_document
 ---
 ```{r}
-2+2
+1+1
+28-4
+2*6
+12/3
+sqrt(4)
+
+
 ```
 
