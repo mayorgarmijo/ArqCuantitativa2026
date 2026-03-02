@@ -1,16 +1,29 @@
 ---
 title: "Clase 1"
-author: "Diego Mayorga"
-date: "2026-03-XX"
+author: "Arqueología Cuantitativa"
+date: "2026-03-02"
 output: html_document
 ---
+##### **1. Operaciones básicas.** Lo primero que podemos hacer en RStudio es utilizarlo como calculadora, para esto simplemente debemos usar símbolo que corresponda. 
+
 ```{r}
-1+1
-28-4
-2*6
-12/3
-sqrt(4)
+10+10
+10-5
+5*8
+25/5
+sqrt(144)
+12**2
+```
+---
+##### **2. Crear un vector.** Un vector en R es la estructura de datos más básica, consistente en una secuencia ordenada de elementos de un mismo tipo. Para crearlo utilizamos la función c() que significa "concatenar" o "combinar".
+Idealmente, un vector debe tener un nombre conocido y no tan genérico para que sea fácil de recordar, de escribir y no se confunda con otros que puedas estar usando paralelamente.
+```{r}
+# Vector de caracteres
+x <- c("a", "b", "c", "d")
+x
 
-
+# Vector numérico
+hola <- c(1, 2, 3, 4, 5)
+hola
 ```
 

@@ -9,8 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Diego Mayorga" />
+<meta name="author" content="Arqueología Cuantitativa" />
 
+<meta name="date" content="2026-03-02" />
 
 <title>Clase 1</title>
 
@@ -350,22 +351,47 @@ display: none;
 
 
 <h1 class="title toc-ignore">Clase 1</h1>
-<h4 class="author">Diego Mayorga</h4>
-<h4 class="date">2026-03-XX</h4>
+<h4 class="author">Arqueología Cuantitativa</h4>
+<h4 class="date">2026-03-02</h4>
 
 </div>
 
 
-<pre class="r"><code>1+1</code></pre>
-<pre><code>## [1] 2</code></pre>
-<pre class="r"><code>28-4</code></pre>
-<pre><code>## [1] 24</code></pre>
-<pre class="r"><code>2*6</code></pre>
+<div id="operaciones-básicas.-lo-primero-que-podemos-hacer-en-rstudio-es-utilizarlo-como-calculadora-para-esto-simplemente-debemos-usar-símbolo-que-corresponda." class="section level5">
+<h5><strong>1. Operaciones básicas.</strong> Lo primero que podemos
+hacer en RStudio es utilizarlo como calculadora, para esto simplemente
+debemos usar símbolo que corresponda.</h5>
+<pre class="r"><code>10+10</code></pre>
+<pre><code>## [1] 20</code></pre>
+<pre class="r"><code>10-5</code></pre>
+<pre><code>## [1] 5</code></pre>
+<pre class="r"><code>5*8</code></pre>
+<pre><code>## [1] 40</code></pre>
+<pre class="r"><code>25/5</code></pre>
+<pre><code>## [1] 5</code></pre>
+<pre class="r"><code>sqrt(144)</code></pre>
 <pre><code>## [1] 12</code></pre>
-<pre class="r"><code>12/3</code></pre>
-<pre><code>## [1] 4</code></pre>
-<pre class="r"><code>sqrt(4)</code></pre>
-<pre><code>## [1] 2</code></pre>
+<pre class="r"><code>12**2</code></pre>
+<pre><code>## [1] 144</code></pre>
+<hr />
+</div>
+<div id="crear-un-vector.-un-vector-en-r-es-la-estructura-de-datos-más-básica-consistente-en-una-secuencia-ordenada-de-elementos-de-un-mismo-tipo.-para-crearlo-utilizamos-la-función-c-que-significa-concatenar-o-combinar." class="section level5">
+<h5><strong>2. Crear un vector.</strong> Un vector en R es la estructura
+de datos más básica, consistente en una secuencia ordenada de elementos
+de un mismo tipo. Para crearlo utilizamos la función c() que significa
+“concatenar” o “combinar”.</h5>
+<p>Idealmente, un vector debe tener un nombre conocido y no tan genérico
+para que sea fácil de recordar, de escribir y no se confunda con otros
+que puedas estar usando paralelamente.</p>
+<pre class="r"><code># Vector de caracteres
+x &lt;- c(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;)
+x</code></pre>
+<pre><code>## [1] &quot;a&quot; &quot;b&quot; &quot;c&quot; &quot;d&quot;</code></pre>
+<pre class="r"><code># Vector numérico
+hola &lt;- c(1, 2, 3, 4, 5)
+hola</code></pre>
+<pre><code>## [1] 1 2 3 4 5</code></pre>
+</div>
 
 
 

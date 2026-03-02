@@ -10,4 +10,4 @@ output:
 
 ### Temario y Clases
 
-* [Clase 1: Introducción a RStudio y Estadística Descriptiva](Clase1.html)
+* [Clase 1: Introducción a RStudio y conceptos básicos](Clase1.html)
