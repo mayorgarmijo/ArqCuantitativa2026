@@ -275,10 +275,10 @@ df_final
 ## 3  3  6  9 12
 ```
 
-<div style="display: flex; justify-content: space-between; margin-top: 50px;">
+<div style="text-align: center; margin-top: 50px; margin-bottom: 30px;">
   
-  <a href="index.html">[← Volver al Índice]</a>
-  
-  <a href="Clase2.html">[Siguiente Clase: Clase 2 →]</a>
-  
+  <a href="" class="btn btn-default">← Clase Anterior</a>
+  <a href="index.html" class="btn btn-default" style="margin: 0 10px;">Índice</a>
+  <a href="Clase2.html" class="btn btn-default">Siguiente Clase →</a>
+
 </div>
