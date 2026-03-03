@@ -1,14 +1,3 @@
----
-title: "Clase 1. Introducción a la Arqueología Cuantitativa. Conceptos Básicos."
-output: 
-  html_document: 
-    keep_md: true
-    toc: true
-    toc_float: true
-    toc_depth: 4
-    theme: united
----
-
 #### **1. Operaciones básicas.** 
 Lo primero que podemos hacer en RStudio es utilizarlo como calculadora, para esto simplemente debemos usar símbolo que corresponda. 
 
