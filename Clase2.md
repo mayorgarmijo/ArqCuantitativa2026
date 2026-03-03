@@ -75,7 +75,7 @@ camelidos
 ---
 
 #### **3. Filtrado de datos.**
-A menudo necesitamos aislar datos específicos. Para esto, usaremos la función filter junto al operador pipe **(%>%)** disponible en el paquete **dplyr**, que funciona como un "entonces": "toma los datos, y luego fíltralos".
+A menudo necesitamos aislar datos específicos. Para esto, usaremos la función filter junto al operador pipe **(%>%)** disponible en el paquete **tidyverse**, que funciona como un "entonces": "toma los datos, y luego fíltralos".
 En este caso haremos el ejercicio de filtrar solo los datos provenientes del Taxón llamas. Tanto las variables como los datos a seleccionar deben ser escritos **tal cual como están en la base de datos original**.
 
 
