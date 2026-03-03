@@ -4,6 +4,13 @@ author: "Arqueología Cuantitativa - 2026"
 output: 
   html_document: 
     keep_md: true
+    left:
+    - text: "Inicio"
+      href: index.html
+    - text: "Clase 1"
+      href: Clase1.html
+    - text: "Clase 2"
+      href: Clase2.html
 ---
 
 ¡Bienvenidos al material del curso! Aquí encontrarán los scripts de R y los apuntes de estadística vistos en clases.
