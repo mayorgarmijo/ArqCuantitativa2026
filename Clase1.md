@@ -1,5 +1,5 @@
 ---
-title: "Clase 1"
+title: "Clase 1. Introducción a la Arqueología Cuantitativa. Conceptos Básicos."
 output: 
   html_document: 
     keep_md: true
