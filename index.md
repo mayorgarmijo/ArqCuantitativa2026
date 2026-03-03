@@ -4,6 +4,7 @@ author: "Arqueología Cuantitativa - 2026"
 output: 
   html_document: 
     keep_md: true
+    theme: united
 ---
 
 ¡Bienvenidos al material del curso! Aquí encontrarán los scripts de R y los apuntes de estadística vistos en clases.
