@@ -11,7 +11,7 @@
 
 
 
-<title>Estadística Descriptiva. Medidas de Tendencia Central y dispersión.</title>
+<title>Clase 2. Estadística Descriptiva. Medidas de Tendencia Central y dispersión.</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -1483,8 +1483,8 @@ border-radius: 0px;
 
 
 
-<h1 class="title toc-ignore">Estadística Descriptiva. Medidas de
-Tendencia Central y dispersión.</h1>
+<h1 class="title toc-ignore">Clase 2. Estadística Descriptiva. Medidas
+de Tendencia Central y dispersión.</h1>
 
 </div>
 
@@ -1545,12 +1545,13 @@ camelidos</code></pre>
 <div id="filtrado-de-datos." class="section level4">
 <h4><strong>3. Filtrado de datos.</strong></h4>
 <p>A menudo necesitamos aislar datos específicos. Para esto, usaremos la
-función filter junto al operador pipe <strong>(%&gt;%)</strong>
-disponible en el paquete <strong>tidyverse</strong>, que funciona como
-un “entonces”: “toma los datos, y luego fíltralos”. En este caso haremos
-el ejercicio de filtrar solo los datos provenientes del Taxón llamas.
-Tanto las variables como los datos a seleccionar deben ser escritos
-<strong>tal cual como están en la base de datos original</strong>.</p>
+función <strong>filter()</strong> junto al operador pipe
+<strong>(%&gt;%)</strong> disponibles en el paquete
+<strong>tidyverse</strong>, que funciona como un “entonces”: “toma los
+datos, y luego fíltralos”. En este caso haremos el ejercicio de filtrar
+solo los datos provenientes del Taxón llamas. Tanto las variables como
+los datos a seleccionar deben ser escritos <strong>tal cual como están
+en la base de datos original</strong>.</p>
 <pre class="r"><code># Creamos un nuevo dataframe solo con los datos de LLAMA
 llama &lt;- camelidos %&gt;% filter(Taxon == &quot;LLAMA&quot;)
 
